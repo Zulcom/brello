@@ -1,0 +1,5 @@
+{
+  "**/*.{ts,tsx,css}": "prettier --write",
+  "*.ts": "npm run lint:js",
+  "*.css": "npm run lint:css"
+}
